@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         "green-primary": "#1d3531",
+        "green-border": "#2a4b46",
       },
     },
   },

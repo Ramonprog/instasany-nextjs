@@ -8,7 +8,7 @@ import GridContainer from "../Grid"
 
 const Header = () => {
     return (
-        <header className="relative w-full h-24 bg-green-primary flex items-center">
+        <header className="relative w-full h-24 bg-green-primary flex items-center border-b border-x-zinc-400 border-b-green-border">
             <GridContainer className="flex items-center justify-between">
                 <Image
                     src={LogoImage}
