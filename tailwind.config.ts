@@ -12,6 +12,9 @@ const config: Config = {
         "green-primary": "#1d3531",
         "green-border": "#2a4b46",
       },
+      backgroundImage: {
+        hero: 'url("/bg-hero.svg")',
+      },
     },
   },
   plugins: [],

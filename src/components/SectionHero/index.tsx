@@ -3,10 +3,11 @@ import GridContainer from "../Grid"
 import IconFile from '/public/icon-file.svg'
 import IconHandOne from '/public/icon-hand.svg'
 import IconHandTwo from '/public/icon-hand-02.svg'
+import Mockup from '/public/mockup.svg'
 
 const SectionHero = () => {
     return (
-        <section className="w-full bg-green-primary h-[834px] pt-16">
+        <section className="relative w-full bg-hero bg-no-repeat bg-center bg-top bg-green-primary h-[834px] pt-16 overflow-hidden">
             <GridContainer className="flex flex-col items-center">
                 <div className="w-full max-w-[1056px] text-center">
                     <h3 className="text-xl font-medium  text-teal-800 mb-4">Novo curso focado em instagram</h3>
@@ -34,6 +35,19 @@ const SectionHero = () => {
                         src={IconHandTwo}
                         alt="Icone de mão 02"
                         className="absolute top-0 right-0"
+                    />
+                </div>
+
+                <div className="absolute top-96 w-full max-w-[957px] flex justify-between">
+                    <Image
+                        src={Mockup}
+                        alt="Mockup tela de celular"
+                        className="-rotate-12 relative top-5 left-14"
+                    />
+                    <Image
+                        src={Mockup}
+                        alt="Mockup tela de celular"
+                        className="rotate-12 relative top-5 right-14"
                     />
                 </div>
             </GridContainer>
